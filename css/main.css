@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(128, 128, 128) !important;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #cecece63;
+}
+.btn-info {
+    color: #000;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 20px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+    margin-left: 20px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    border: none !important;
+}
+
+.bg-gry{
+    text-align: center !important;
+    background-color: rgba(128, 128, 128, 0.772);
+}
+.bg-gry p{
+    font-size: 40px;
+}
+
+.accordion-flush .accordion-item .accordion-button{
+    cursor: pointer;
+}
+.accordion-button:active{
+    background-color: #000 ;
+    color: #fff ;
+}
+pre code {
+    word-break: normal;
+    font-size: 17px;
+}
+.here{
+    color: #a0996d !important;
+}
+.here:hover{
+    color: #a0996db5 !important;
+}
+.btnbefo{
+    position: relative;
+    left: 30px;
+}
+.btnbefo::before{
+    position: absolute;
+    content: "";
+    border-width: 10px;
+    border-style:solid;
+    border-color: transparent transparent lightblue transparent;
+    top: 20px;
+    left: 13px;
+    display: none;
+}
+.btnbefo::after{
+    position: absolute;
+    content: " ";
+    height: 40px;
+    width: 80px;
+    background-color: lightblue;
+    top: 40px;
+    left: -15px;
+    border-radius: 5px;
+    display: none;
+}
+.btnbefo:active::before,
+.btn:hover::before{
+    display: block;
+}
+.btnbefo:hover::after{
+    content: "copy to clipboard";
+    display: block;
+}
+.btnbefo:active::after{
+    content: "copied";
+    display: block;
+    height: 25px;
+}
+.cards{
+    margin-top: 30px;
+    margin-left: 0px !important;
+}
+.myicon{
+    width: 30px;
+    height: 30px;
+}
+.fixedimg1{
+background-image: url(../image/خلفيات-كمبيوتر-موقع-محيط-_182048401_-__.jpg) !important;
+}
+.fixedimg2{
+background-image: url(../image/background.jpg) !important;
+}
